@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:homeapp/screens/details.dart';
 import 'package:homeapp/screens/house_1.dart';
 import 'package:homeapp/screens/login.dart';
+import 'package:homeapp/screens/splash_screens.dart';
 import 'package:homeapp/screens/wish_list.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: House1(),
+      home: Login(),
     );
   }
 }
